@@ -1,0 +1,14 @@
+{       "name": "LaTeXeR",
+  "short_name": "LaTeXeR",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#002b36",
+  "theme_color": "#002b36",
+  "icons": [
+      {
+        "src": "ekonly-logo.png",
+        "sizes": "192x192",
+        "type": "image/svg"
+      }
+    ]
+  }

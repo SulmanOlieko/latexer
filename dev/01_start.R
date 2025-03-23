@@ -53,8 +53,8 @@ golem::use_recommended_tests()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon(path="https://raw.githubusercontent.com/SulmanOlieko/sulmanolieko.github.io/main/img/ekonly-logo.svg") # path = "path/to/ico". Can be an online file.
-# golem::remove_favicon() # Uncomment to remove the default favicon
+golem::remove_favicon() # Uncomment to remove the default favicon
+golem::use_favicon(path="https://raw.githubusercontent.com/SulmanOlieko/latexer/master/latexer-sticker.png") # path = "path/to/ico". Can be an online file.
 
 ## Add helper functions ----
 golem::use_utils_ui(with_test = TRUE)
@@ -62,11 +62,9 @@ golem::use_utils_server(with_test = TRUE)
 
 ## Use git ----
 usethis::use_git()
-## Sets the remote associated with 'name' to 'url'
-usethis::use_git_remote(
-  name = "origin",
-  url = "https://github.com/SulmanOlieko/latexer.git"
-)
+
+# Remove the existing "origin" remote
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 
 # You're now set! ----
 

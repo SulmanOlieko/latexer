@@ -1,13 +1,10 @@
 Package: latexer
-Title: LaTeXeR
+Title: PKG_TITLE
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Sulman Olieko",
-           family = "Owili",
-           role = c("aut", "cre"),
-           email = "oliekosulman@gmail.com")
-Description: Writing, editing and compiling LaTeX files. Also provides an interface for file management.
-License: MIT
+    person("Sulman Olieko", "Owili", , "oliekosulman@gmail.com", role = c("aut", "cre"))
+Description: PKG_DESC.
+License: MIT + file LICENSE
 Imports:
     shiny,
     shinyAce,

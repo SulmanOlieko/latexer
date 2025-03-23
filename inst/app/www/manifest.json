@@ -6,9 +6,9 @@
   "theme_color": "#002b36",
   "icons": [
       {
-        "src": "ekonly-logo.png",
+        "src": "latexer-sticker.png",
         "sizes": "192x192",
-        "type": "image/svg"
+        "type": "image/png"
       }
     ]
   }

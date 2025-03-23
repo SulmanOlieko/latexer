@@ -306,7 +306,7 @@ app_ui <- function(request) {
     # Header
     div(id = "header",
         div(style = "display: flex; align-items: center;",
-            tags$img(src = "https://raw.githubusercontent.com/SulmanOlieko/sulmanolieko.github.io/main/img/ekonly-logo.svg",
+            tags$img(src = "https://raw.githubusercontent.com/SulmanOlieko/latexer/master/latexer-sticker.png",
                      style = "height:40px; width:auto; margin-right:10px;"),
             h1("LaTeXeR", style="margin: 0;")
         ),

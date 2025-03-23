@@ -5,7 +5,7 @@ var urlsToCache = [
   "manifest.json",
   "sw.js",
   "https://unpkg.com/split.js/dist/split.min.js"
-  "https://raw.githubusercontent.com/SulmanOlieko/latexer/master/latexer-sticker-1.png"
+  "https://raw.githubusercontent.com/SulmanOlieko/latexer/master/latexer-sticker.png"
 ];
 self.addEventListener("install", function(event) {
   event.waitUntil(
